@@ -1,0 +1,85 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+*{
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #085078;
+    background: -webkit-linear-gradient(to left, #85D8CE, #085078); 
+    background: linear-gradient(to left, #85D8CE, #085078);
+    overflow: hidden;
+}
+
+.bg img{
+    width: 100%;
+    opacity: 0.7;
+    object-fit: cover;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: 460px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(218, 216, 216);
+}
+
+.content p{
+    text-align: left;
+    font-size: 13px;
+}
+
+.content{
+    padding: 10px 50px;
+}
+
+.content h3{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+input[type=text], textarea{
+    margin: 5px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #085078;
+    outline: 0;
+    background-color: rgb(218, 216, 216);
+}
+
+input[type=text]:focus, textarea:focus{
+    transition: 0.1s 0.1s ease;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #70beb5, #085178);
+    border-width: 0 0 1.5px;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    position: static;
+    color:  #e7e5e5;
+    margin-top: 20px;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background: linear-gradient(to left, #70beb5, #0851788c);
+}
