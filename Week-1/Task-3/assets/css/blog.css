@@ -1,0 +1,61 @@
+@import"./main.css";
+
+/* *{
+    border: 1px solid red;
+} */
+
+article{
+    width: 80%;
+    margin: auto !important;
+}
+
+
+.webname{
+    margin-right: 490px !important;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+.content{
+    margin-top: 50px;
+    padding: 30px 50px 30px;
+    border: 1;
+    border-radius: 5px;
+    background-color: rgba(197, 153, 153, 0.075);
+    transition: all 0.3s;
+}
+
+.content li a{
+    text-decoration: none;
+}
+
+.news{
+    margin: 20px 0;
+    padding: 10px;
+    border: 1;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.699);
+    transition: all .3s;
+}
+
+.news:hover{
+    box-shadow: 3px 3px 7px -3px rgba(0, 0, 0, 0.295);
+}
+
+.news img{
+    width: 30%;
+    border: 1;
+    border-radius: 4px;
+}
+
+.title{
+    float: right;
+    width: 68%;
+    margin-top: 10px;
+}
+
+.title p{
+    font-size: 20px;
+}

@@ -1,0 +1,83 @@
+@import"./main.css";
+
+.webname{
+    margin-right: 480px !important;
+}
+
+article{
+    width: 80%;
+    margin-top: 0;
+    margin-left: 125px;
+}
+
+.content-1{
+    height: 450px;
+    margin-top: 40px;
+    padding: 50px 50px 70px;
+    border: 1;
+    border-radius: 5px;
+    background-color: rgba(197, 153, 153, 0.075);
+    transition: all 0.3s;
+}
+
+.content-1:hover{
+  box-shadow: 3px 3px 7px -3px rgba(0, 0, 0, 0.226);
+}
+
+.img-prof img{
+    width: 80%;
+    text-align: center;
+}
+
+.desc{
+    margin-top: 30px;
+}
+
+.img-prof{
+    width: 20%;
+    float: left;
+}
+
+.btn-view {
+    border-radius: 4px;
+    background-color: rgb(34, 67, 175);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin-top: 50px; */
+    /* margin-left: 100px; */
+  }
+
+  .btn-view:hover{
+    background-color: rgb(236, 100, 51);
+  }
+  
+  .btn-view span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn-view span:after {
+    content: '\203A';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -40px;
+    transition: 0.5s;
+  }
+  
+  .btn-view:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-view:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

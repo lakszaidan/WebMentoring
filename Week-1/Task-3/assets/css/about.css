@@ -1,0 +1,32 @@
+@import"../css/main.css";
+
+/* *{
+    border: 1px solid red;
+} */
+
+.webname{
+    margin-right: 440px !important;
+}
+
+.content{
+    margin-top: 50px;
+    padding: 30px 50px 30px;
+    border: 1;
+    border-radius: 5px;
+    background-color: rgba(197, 153, 153, 0.075);
+    transition: all 0.3s;
+}
+
+.content:hover{
+    box-shadow: 3px 3px 7px -3px rgba(0, 0, 0, 0.295);
+}
+
+article{
+    width: 80%;
+    margin-top: 0;
+    margin-left: 125px;
+}
+
+footer{
+    margin-top: 9%;
+}
