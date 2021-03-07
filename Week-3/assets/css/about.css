@@ -1,0 +1,97 @@
+@import'./main.css';
+
+*{
+    /* border: 1px solid red; */
+}
+
+body{
+    background: #00000031 url('../images/vineyard-428041_1920.jpg');
+    /* background-size: 100%; */
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.main-label{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 40px 30px;
+    color: #f1f1f1;
+    text-shadow: 3px 3px rgba(59, 59, 59, 0.658);
+}
+
+.jumbotron{
+    background-image: none;
+    position: relative;
+    height: 100px;
+    margin-bottom: 30px;
+    /* margin-top: 100px; */
+    /* border: 2px solid red; */
+}
+
+.jumbotron img{
+    opacity: 0.8;
+    object-fit: cover;
+    width: 100%;
+    /* height: 100px; */
+    /* position: relative; */
+    left: 0;
+    /* top: 150px; */
+}
+
+.jumbotron p{
+    padding: 0 40px;
+    font-size: 40px;
+    color: #f1f1f1;
+    text-shadow: 3px 3px rgb(109, 108, 108);
+    /* margin: auto; */
+    text-align: left;
+    top: 30px;
+}
+
+article{
+    padding: 0 40px 0;
+    /* margin: 20px; */
+    transition: none !important;
+    /* position: absolute; */
+}
+
+.content p{
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+.profile img{
+    border: 2px solid rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+    min-width: 180px;
+    width: 22%;
+}
+
+.profile p{
+    /* margin: 0; */
+    padding: 0 50px 0 0;
+}
+
+.profile{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content{
+    padding: 10px 70px 50px;
+}
+
+.content:hover{
+    box-shadow: 2px 2px 4px -2px rgba(0,0,0,0.75);
+    transform: translate(-3px, -1px);
+}
+
+
+article:hover{
+    /* background-color: #289b2e; */
+    /* color: white; */
+}
+
+.breaks{
+    background-color: #f1f1f1;
+}

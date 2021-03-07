@@ -1,0 +1,40 @@
+@import'./login.css';
+
+.form-img{
+    height: 850px;
+}
+
+.form{
+    height: 300px;
+}
+
+.btn-regs{
+    padding: 5px 28% !important;
+    background-color: #0000003f;
+    border: 1;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+
+.btn-regs:hover{
+    background-color: #010101a9;
+}
+
+input[type=email], input[type=password], input[type=text]{
+    outline: none;
+    padding: 5px 0 5px 10px;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.password{
+    margin: 0 !important;
+}
+
+.conf-password{
+    margin-bottom: 30px;
+}

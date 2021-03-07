@@ -1,0 +1,65 @@
+@import'about.css';
+
+*{
+    /* border: 1px solid red; */
+}
+
+.main-label{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 40px 30px;
+    color: #ffffff;
+    text-shadow: 3px 3px rgba(59, 59, 59, 0.658);
+}
+
+.service{
+    margin-top: 10px;
+    display: flex;
+}
+
+.service img{
+    width: 13%;
+    height: 100px;
+    margin: auto;
+    padding: 20px 40px 20px 20px;
+}
+
+div[class*="content"]{
+    background-color: #f7f7f7;
+    padding: 10px 30px 20px;
+    transition: all .3s ease;
+    line-height: 25px;
+    color: black !important;
+    border: 1;
+    margin: auto;
+    width: 90%;
+    user-select: none;
+}
+
+.content-1{
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.content-2{
+    border-radius: 0 !important;
+}
+
+.content-3{
+    border-radius: 0 0 10px 10px !important;
+}
+
+div[class*="content"]:hover{
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    transform: translate(-3px,-1px) scale(1.02);
+    border: 1;
+    border-radius: 10px !important;
+    background-color: #3f3f3f;
+}
+
+div[class*="content"]:hover p{
+    color: #f1f1f1;
+}
+
+div[class*="content"]:hover h2{
+    color: #bae001;
+}

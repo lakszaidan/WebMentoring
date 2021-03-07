@@ -81,3 +81,31 @@ article{
     opacity: 1;
     right: 0;
   }
+
+  @media (max-width: 992px){
+  
+  article{
+    width: 90%;
+    margin: auto;
+  }
+
+  .content-1{
+    height: 520px;
+    margin-top: 40px;
+    padding: 50px 50px 70px;
+  }
+
+  .img-prof{
+    width: 30%;
+    float: left;
+  }
+  
+  .desc{
+    margin-top: 0;
+  }
+
+  .webname{
+    margin-right: 280px !important;
+  }
+
+  }

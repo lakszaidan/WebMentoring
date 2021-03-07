@@ -14,6 +14,7 @@ body{
     margin: 0;
     /* background-color: #f1f1f1; */
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 ul{
@@ -118,7 +119,7 @@ p{
 
 footer{
     font-size: 15px;
-    margin-top: 8%;
+    margin-top: 15%;
     width: 100%;
     color: #f1f1f1;
     background-color: rgb(47, 47, 153);
@@ -159,6 +160,54 @@ footer{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 992px){
+
+    ul{
+        display: inline-block;
+        color: white;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: #f1f1f1;
+        transition: all .3s;
+    }
+
+    nav{
+        top: 0;
+        width: 100%;
+        text-align: start;
+        margin: auto;
+    }
+
+    .webname{
+        font-size: 21px;
+        color: #f1f1f1;
+        text-decoration: none;
+    }
+    
+    main{
+        margin-top: 30px;
+    }
+    
+    article{
+        margin: 30px auto 0;
+        width: 90%;
+    }
+
+    .page-nav{
+        margin: auto;
+        border: 1;
+        border-radius: 5px;
+        padding: 10px 30px 30px 30px;
+        background-color: rgba(197, 153, 153, 0.075);
+        width: 90%;
+        /* position: sticky; */
+    }
 }
   
   

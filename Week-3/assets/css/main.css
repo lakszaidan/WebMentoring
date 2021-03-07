@@ -1,0 +1,163 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+*{
+    /* border: 1px solid red; */
+    font-family: 'Poppins';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+    scroll-behavior: smooth;
+}
+
+/*  */
+/* Header */
+/*  */
+
+.title-1{
+    /* margin-right: 530px; */
+    font-weight: bold;
+    font-size: 40px;
+    user-select: none;
+}
+
+.title-1 a:hover{
+    color: #d0ff00 !important;
+    text-shadow: -1px -1px 3px rgba(0,0,0,0.5);
+}
+
+.title{
+    background-color: #34a73a;
+    padding: 10px 0;
+}
+
+.title .btn{
+    font-size: 15px;
+    margin: 10px 20px;
+    float: right;
+    padding: 7px 30px;
+    border: 1.6px solid #2fbb46;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.title .btn:hover{
+    border-radius: 10px;
+    color: #f1f1f1;
+    background-color: #303030;
+}
+
+.title button a{
+    border: 0;
+}
+
+#page-nav{
+    margin-top: 20px;
+}
+
+nav{
+    padding: 0 0 20px 0;
+    background-color: #289b2e;
+}
+
+nav ul{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f1f1f1;
+    transition: all 0.25s ease;
+    list-style: none;
+}
+
+nav a:hover{
+    color: #303030;
+    font-weight: bold;
+}
+
+.jumbotron{
+    background-image: url('../images/apples-1004886_1920.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+}
+
+.jumbotron p{
+    font-size: 50px;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 80px;
+}
+
+/*  */
+/* Main */
+/*  */
+
+main{
+    margin: auto;
+    /* width: 90%; */
+}
+
+article{
+    padding: 50px 40px 50px;
+    /* margin: 20px; */
+}
+
+.article-1{
+    transition: all .8s ease;
+}
+
+.article-1:hover{
+    background-color: #289b2e;
+    color: white;
+}
+
+.content{
+    background-color: #ffffff;
+    padding: 20px 30px 50px;
+    transition: all .3s ease;
+    line-height: 25px;
+    color: black !important;
+    border: 1;
+    border-radius: 10px;
+}
+
+.content:hover{
+    box-shadow: 4px 5px 8px -3px rgba(0,0,0,0.75);
+    transform: translate(-3px,-1px);
+}
+
+.breaks{
+    margin: 8% auto 0;
+    background: #00000059;
+    width: 80%;
+    border: 1;
+    border-radius: 10px;
+    height: 1.6px;
+}
+
+/*  */
+/* Footer */
+/*  */
+
+footer{
+    background-color: #303030;
+    color: #f1f1f1;
+    margin-top: 8%;
+    text-align: center;
+    padding: 25px;
+}
