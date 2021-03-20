@@ -1,0 +1,56 @@
+*{
+    /* border: 1px solid red; */
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#content{
+    border: 1;
+    border-radius: 10px;
+    /* padding: 20px; */
+    margin-top: 80px;
+    background: #f1f1f1;
+    box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.596);
+}
+
+.password{
+    margin-top: 20px;
+}
+
+
+#title{
+    border: 1;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    background-color: #222e4d;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+#title p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    color: #f1f1f1;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(51, 51, 173);
+    color: #f1f1f1;
+}
+
+#captcha{
+    /* width: 50%; */
+}
+
+@media (max-width: 768px){
+    #content{
+        margin: 10%;
+        width: 70%;
+    }
+}
